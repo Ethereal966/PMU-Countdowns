@@ -4,7 +4,8 @@
   "description": "Countdowns for PMU academic schedule events in one page.",
   "main": "./dist/index",
   "scripts": {
-    "start": "tsc && node ./dist/index"
+    "start": "node ./dist/index",
+    "dev": "tsc && node ./dist/index"
   },
   "repository": {
     "type": "git",
