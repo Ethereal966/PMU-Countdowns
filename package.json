@@ -1,0 +1,30 @@
+{
+  "name": "pmu-countdowns",
+  "version": "1.0.0",
+  "description": "Countdowns for PMU academic schedule events in one page.",
+  "main": "./dist/index",
+  "scripts": {
+    "start": "tsc && node ./dist/index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ethereal966/PMU-Countdowns.git"
+  },
+  "keywords": [
+    "PMU",
+    "countdowns"
+  ],
+  "author": "Ethereal966",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Ethereal966/PMU-Countdowns/issues"
+  },
+  "homepage": "https://github.com/Ethereal966/PMU-Countdowns#readme",
+  "dependencies": {
+    "@types/express": "^5.0.0",
+    "cheerio": "^1.0.0",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "winston": "^3.17.0"
+  }
+}
